@@ -1,0 +1,40 @@
+{
+  "refreshInterval": 100,
+
+  "options": {
+    "info": "Default Flot options for each series in each chart"
+  },
+
+  "info": "Chart data and options comes from Flot: https://github.com/flot/flot/blob/master/API.md#plot-options",
+  "charts":[
+    {
+      "label": "First Chart",
+      "height": 300,
+      "options": {
+        "info": "Default Flot options for each series in this chart"
+      },
+      "data": [
+        {
+          "label": "bar series",
+          "bars": {"show": true, "align": "center", "barWidth": 0.25},
+          "data": [[1.3, 1],[1.75, 2.5],[2.5, 0.5]]
+        },
+        {
+          "label": "line series",
+          "data": [[1, 1],[2, 5],[3, 3]]
+        }
+      ]
+    },
+    {
+      "label": "Second Chart",
+      "height": 150,
+      "options": {
+        "info": "Default Flot options for each series in this chart"
+      },
+      "data": [
+        [[0, 3], [4, 8], [8, 5], [9, 13]],
+        [[10, 3], [14, 8], [18, 5], [19, 13]]
+      ]
+    }
+  ]
+}
