@@ -1,10 +1,17 @@
-How to use it:
-http://localhost:63342/flot-dashboard/index.html?config.json
+How to use it
+-------------
+It's just a static page that loads configuration from given URL:
 
-Options you can use:
+    index.html?config.json
+    
+
+Options you can use
+-------------------
 https://github.com/flot/flot/blob/master/API.md#plot-options
 http://www.flotcharts.org/
 
-Pick your theme:
+Pick your theme
+---------------
+Right now there is 
 https://www.bootstrapcdn.com/bootswatch/
 
