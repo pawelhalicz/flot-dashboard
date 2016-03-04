@@ -1,8 +1,15 @@
 body {
-    color: #ffffff
+    color: #ffffff;
+    background-color: #161616;
 }
+.fd-chart-panel {
+    background-color: #1f1f1f;
+    border: solid 1px #262626;
+    margin-bottom: 30px;
+}
+
 .fd-placeholder {
-    padding: 20px;
+    padding: 10px;
     width: 97%;
 }
 .fd-chart {
