@@ -8,6 +8,7 @@ It's just a static page that loads configuration from given URL:
 Options you can use
 -------------------
 https://github.com/flot/flot/blob/master/API.md#plot-options
+
 http://www.flotcharts.org/
 
 Pick your theme
